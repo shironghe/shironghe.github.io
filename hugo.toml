@@ -1,6 +1,6 @@
 baseURL = "https://shironghe.github.io/"
 locale = "zh-cn"
-title = "shironghe 的博客"
+title = "何世荣的博客"
 theme = "PaperMod"
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
@@ -29,8 +29,8 @@ copyright = "© 2026 shironghe · CC BY-SA 4.0"
 
 [params]
   env = "production"
-  title = "shironghe 的博客"
-  description = "shironghe 的开源技术博客：用 Hugo 构建，中英双语记录工程实践。"
+  title = "何世荣的博客"
+  description = "你好，我是何世荣，目前从事大模型算法相关工作。这个博客用于记录和分享我在工作与学习中的见解。我的兴趣包括 AI Agent，RAG。欢迎交流"
   keywords = ["blog", "hugo", "open source", "shironghe"]
   author = "shironghe"
   mainSections = ["posts"]
@@ -57,8 +57,8 @@ copyright = "© 2026 shironghe · CC BY-SA 4.0"
     safari_pinned_tab = "/favicon.svg"
 
   [params.homeInfoParams]
-    Title = "你好，我是 shironghe"
-    Content = "这里是我的开源个人博客：中文为主、英文按需，记录工程实践、开源项目与学习笔记。"
+    Title = "👋 欢迎访问我的博客"
+    Content = "你好，我是何世荣，目前从事大模型算法相关工作。这个博客用于记录和分享我在工作与学习中的见解。我的兴趣包括 AI Agent，RAG。欢迎交流"
 
   [[params.socialIcons]]
     name = "github"
@@ -125,8 +125,8 @@ copyright = "© 2026 shironghe · CC BY-SA 4.0"
       description = "shironghe's open-source tech blog: built with Hugo, written in Chinese with English translations."
 
       [languages.en.params.homeInfoParams]
-        Title = "Hi, I'm shironghe"
-        Content = "This is my open-source personal blog: primarily Chinese with English translations, covering engineering practice, open-source projects, and learning notes."
+        Title = "👋 Welcome to My Blog"
+        Content = "Hi, I'm He Shirong, currently working on large language model algorithms. This blog documents and shares insights from my work and learning. My interests include AI agents and RAG. Feel free to reach out."
 
       [[languages.en.menu.main]]
         identifier = "archives"
