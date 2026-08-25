@@ -1,0 +1,155 @@
+baseURL = "https://shironghe.github.io/"
+locale = "zh-cn"
+title = "shironghe 的博客"
+theme = "PaperMod"
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+enableEmoji = true
+hasCJKLanguage = true
+paginate = 10
+summaryLength = 30
+timeZone = "Asia/Shanghai"
+copyright = "© 2026 shironghe · CC BY-SA 4.0"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[params]
+  env = "production"
+  title = "shironghe 的博客"
+  description = "shironghe 的开源技术博客：用 Hugo 构建，中英双语记录工程实践。"
+  keywords = ["blog", "hugo", "open source", "shironghe"]
+  author = "shironghe"
+  mainSections = ["posts"]
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  ShowFullTextinRSS = false
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  comments = true
+
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon.svg"
+    favicon32x32 = "/favicon.svg"
+    apple_touch_icon = "/favicon.svg"
+    safari_pinned_tab = "/favicon.svg"
+
+  [params.homeInfoParams]
+    Title = "你好，我是 shironghe"
+    Content = "这里是我的开源个人博客：中文为主、英文按需，记录工程实践、开源项目与学习笔记。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/shironghe"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:hsr2025@163.com"
+
+  [params.giscus]
+    repo = "shironghe/shironghe.github.io"
+    repoId = ""
+    category = "Announcements"
+    categoryId = ""
+    mapping = "pathname"
+    reactionsEnabled = 1
+    inputPosition = "top"
+    theme = "preferred_color_scheme"
+
+[languages]
+  [languages.zh-cn]
+    label = "中文"
+    locale = "zh-cn"
+    weight = 1
+    title = "shironghe 的博客"
+    contentDir = "content/zh-cn"
+
+    [languages.zh-cn.params]
+      description = "shironghe 的开源技术博客：用 Hugo 构建，中英双语记录工程实践。"
+
+      [[languages.zh-cn.menu.main]]
+        identifier = "archives"
+        name = "归档"
+        url = "/archives/"
+        weight = 10
+      [[languages.zh-cn.menu.main]]
+        identifier = "search"
+        name = "搜索"
+        url = "/search/"
+        weight = 20
+      [[languages.zh-cn.menu.main]]
+        identifier = "tags"
+        name = "标签"
+        url = "/tags/"
+        weight = 30
+      [[languages.zh-cn.menu.main]]
+        identifier = "categories"
+        name = "分类"
+        url = "/categories/"
+        weight = 40
+      [[languages.zh-cn.menu.main]]
+        identifier = "series"
+        name = "系列"
+        url = "/series/"
+        weight = 50
+
+  [languages.en]
+    label = "English"
+    locale = "en"
+    weight = 2
+    title = "shironghe's Blog"
+    contentDir = "content/en"
+
+    [languages.en.params]
+      description = "shironghe's open-source tech blog: built with Hugo, written in Chinese with English translations."
+
+      [languages.en.params.homeInfoParams]
+        Title = "Hi, I'm shironghe"
+        Content = "This is my open-source personal blog: primarily Chinese with English translations, covering engineering practice, open-source projects, and learning notes."
+
+      [[languages.en.menu.main]]
+        identifier = "archives"
+        name = "Archives"
+        url = "/en/archives/"
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "search"
+        name = "Search"
+        url = "/en/search/"
+        weight = 20
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/en/tags/"
+        weight = 30
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/en/categories/"
+        weight = 40
+      [[languages.en.menu.main]]
+        identifier = "series"
+        name = "Series"
+        url = "/en/series/"
+        weight = 50
