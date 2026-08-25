@@ -60,6 +60,10 @@ copyright = "© 2026 shironghe · CC BY-SA 4.0"
     Title = "👋 欢迎访问我的博客"
     Content = "你好，我是何世荣，目前从事大模型算法相关工作。这个博客用于记录和分享我在工作与学习中的见解。我的兴趣包括 AI Agent，RAG。欢迎交流"
 
+  [params.contact]
+    github = "https://github.com/shironghe"
+    email = "mailto:hsr2025@163.com"
+
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/shironghe"
@@ -82,7 +86,7 @@ copyright = "© 2026 shironghe · CC BY-SA 4.0"
     label = "中文"
     locale = "zh-cn"
     weight = 1
-    title = "shironghe 的博客"
+    title = "何世荣的博客"
     contentDir = "content/zh-cn"
 
     [languages.zh-cn.params]
