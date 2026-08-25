@@ -1,12 +1,14 @@
 ---
-title: "Welcome to My Blog"
-description: "An open-source, bilingual personal tech blog"
+title: "Agent Loop Must Be ReAct"
+description: "An Agent Loop can take many forms"
 date: 2026-08-25
 draft: false
-tags: ["blog", "Hugo", "open source"]
-categories: ["site"]
-series: ["blog setup"]
-translationKey: "welcome"
+tags: ["Agent", "ReAct"]
+categories: ["Agent"]
+series: ["Agent"]
+translationKey: "Agent Loop"
 ---
 
-Hello, this is He shirong, currently working on large language model algorithms. This blog is a space for recording and sharing my insights from work and study. My interests include AI Agents and RAG. Feel free to connect and exchange ideas.
+## What is an Agent Loop
+
+An Agent Loop is a
