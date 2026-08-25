@@ -35,6 +35,46 @@ hugo server --buildDrafts
 hugo new content zh-cn/posts/my-post.md
 ```
 
+## 翻译文章到英文
+
+英文版放在 `content/en/posts/`，与中文文件通过相同的 `translationKey` 配对：
+
+1. 在 `content/zh-cn/posts/` 写完中文文章
+2. 复制到 `content/en/posts/`，翻译正文和 front matter
+3. 保持两个文件的 `translationKey` 一致
+4. 本地运行 `hugo server` 预览，文章页右上角会出现语言切换
+5. 英文版可以后补，不会阻塞中文文章发布
+
+中文 front matter 示例：
+
+```yaml
+---
+title: "文章标题"
+description: "文章描述"
+date: 2026-08-25
+draft: false
+tags: ["标签"]
+categories: ["分类"]
+series: ["系列"]
+translationKey: "my-post"
+---
+```
+
+英文 front matter 示例：
+
+```yaml
+---
+title: "Post Title"
+description: "Post description"
+date: 2026-08-25
+draft: false
+tags: ["tag"]
+categories: ["category"]
+series: ["series"]
+translationKey: "my-post"
+---
+```
+
 ## 部署
 
 推送 `main` 分支即可触发 `.github/workflows/deploy.yml`：
