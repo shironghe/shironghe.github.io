@@ -1,0 +1,23 @@
+智能体: agent
+
+# 以下为专业名词
+ReAct: ReAct
+Agent Loop: Agent Loop
+多智能体: multi-agent
+规划器: planner
+执行器: executor
+反思: reflection
+推理: reasoning
+思考: thought
+行动: action
+观察: observation
+循环: loop
+架构: architecture
+自我纠错: self-correction
+占位符: placeholder
+上下文: context
+工具: tool
+幻觉: hallucination
+错误传播: error propagation
+可解释性: interpretability
+强化学习: reinforcement learning

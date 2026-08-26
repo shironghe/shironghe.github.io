@@ -29,17 +29,17 @@ hugo server --buildDrafts
 
 ## 新增文章
 
-中文文章放在 `content/zh-cn/posts/`，英文文章放在 `content/en/posts/`。中英文章通过相同的 `translationKey` 配对，英文可以后补：
+中文文章放在 `content/zh/posts/`，英文文章放在 `content/en/posts/`。中英文章通过相同的 `translationKey` 配对，英文可以后补：
 
 ```bash
-hugo new content zh-cn/posts/my-post.md
+hugo new content zh/posts/my-post.md
 ```
 
 ## 翻译文章到英文
 
 英文版放在 `content/en/posts/`，与中文文件通过相同的 `translationKey` 配对：
 
-1. 在 `content/zh-cn/posts/` 写完中文文章
+1. 在 `content/zh/posts/` 写完中文文章
 2. 复制到 `content/en/posts/`，翻译正文和 front matter
 3. 保持两个文件的 `translationKey` 一致
 4. 本地运行 `hugo server` 预览，文章页右上角会出现语言切换

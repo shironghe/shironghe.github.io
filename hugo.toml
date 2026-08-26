@@ -1,8 +1,8 @@
 baseURL = "https://shironghe.github.io/"
-locale = "zh-cn"
+locale = "zh"
 title = "何世荣的博客"
 theme = "PaperMod"
-defaultContentLanguage = "zh-cn"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 enableEmoji = true
@@ -82,27 +82,27 @@ copyright = "© 2026 shironghe · CC BY-SA 4.0"
     theme = "preferred_color_scheme"
 
 [languages]
-  [languages.zh-cn]
+  [languages.zh]
     label = "中文"
-    locale = "zh-cn"
+    locale = "zh"
     weight = 1
     title = "何世荣的博客"
-    contentDir = "content/zh-cn"
+    contentDir = "content/zh"
 
-    [languages.zh-cn.params]
+    [languages.zh.params]
       description = "shironghe 的开源技术博客：用 Hugo 构建，中英双语记录工程实践。"
 
-      [[languages.zh-cn.menu.main]]
+      [[languages.zh.menu.main]]
         identifier = "archives"
         name = "归档"
         url = "/archives/"
         weight = 10
-      [[languages.zh-cn.menu.main]]
+      [[languages.zh.menu.main]]
         identifier = "search"
         name = "搜索"
         url = "/search/"
         weight = 20
-      [[languages.zh-cn.menu.main]]
+      [[languages.zh.menu.main]]
         identifier = "tags"
         name = "标签"
         url = "/tags/"
