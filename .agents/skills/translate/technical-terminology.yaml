@@ -21,3 +21,19 @@ Agent Loop: Agent Loop
 错误传播: error propagation
 可解释性: interpretability
 强化学习: reinforcement learning
+技能: Skill
+提示词: Prompt
+工作流: Workflow
+渐进式披露: progressive disclosure
+系统提示词: system prompt
+运行时: runtime
+元数据: metadata
+前置元数据: front matter
+自进化: self-evolution
+基础技能: Base Skill
+改进技能: Improver Skill
+评测驱动开发: evaluation-driven development
+程序性记忆: procedural memory
+中间产物: intermediate artifact
+质量门禁: quality gate
+灰度发布: gradual rollout
